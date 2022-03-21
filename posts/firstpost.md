@@ -1,7 +1,7 @@
 ---
 title: This is for check-in #1
 description: This is for the first check-in
-date: 2022-3-21
+date: 
 tags:
   - First post
 layout: layouts/post.njk

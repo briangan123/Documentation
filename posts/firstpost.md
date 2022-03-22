@@ -9,6 +9,13 @@ layout: layouts/post.njk
 
 ##  Week 10 Group B  Term-Glossary
 
+## Links for term-glossary repo: 
+https://github.com/briangan123/term-glossary
+https://term-glossary.vercel.app/
+
+## Link to github documentation repo: 
+https://github.com/briangan123/Documentation
+
 ## NOTES for requirements
 
 #### Requirements for the Back end

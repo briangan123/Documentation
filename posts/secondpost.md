@@ -31,7 +31,13 @@ So far we had just cleaned up the template for the demo and are still working on
 
 ### Questions
 Are API's necessary for our project? We are planning on making it user implemented so the can pick which specific words and definitions to add.
+
 Are there any examples of documatation that you think could help us to structure our project?
+
+For planetscale to we have to add scripts into our backend for the data to be sent planetscale or deleted from planetscale?
+
+How can we refer to the enviremental variables from vercel into the code?
+
 
 
 

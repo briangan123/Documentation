@@ -6,9 +6,9 @@ tags:
 layout: layouts/post.njk
 ---
 
-#API Endpoint Documentation
+# API Endpoint Documentation
 
-##Add Word
+## Add Word
 File Name: addTerm.js
 
 Purpose it serves: The purpose of this file is to add a term the user inputs and add it to the database of terms.
@@ -18,7 +18,7 @@ Data Required: Term, Definition, and Context, all of which are varchar variables
 Data Returned: It will give a return the new word the user inputted (for now), and will return the id of the newly added term.
 
 
-##View List
+## View List
 File Name: viewList.js
 
 Purpose it serves: Allows users to view the current list of terms they have compiled.
@@ -28,7 +28,7 @@ Data Required: No new information is required for this. The user clicks a button
 Data Returned: All instances in the table.
 
 
-##Remove Word
+## Remove Word
 File Name: removeTerm.js
 
 Purpose it serves: Removes a term from the glossary.

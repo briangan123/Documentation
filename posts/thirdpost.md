@@ -45,3 +45,13 @@ Data Returned: Responds with 200 success if the term is deleted successfully.
 
 <img width="597" alt="Screen Shot 2022-03-31 at 1 12 19 PM" src="https://user-images.githubusercontent.com/97694891/161112115-2115c333-eec9-49a2-92f5-6e8bf37d1c79.png">
 
+
+## Frontend
+This week we didnt really add much to the gui of the frontend. We were focusing more how to get the basics working before we start to get more creative with how it looks.
+
+#### Getting the Endpoints to run without errors
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0dfwkfs29664l8m3knnn.png)
+
+So far We have setup the add button as well as the view all button but are running into the error shown above when trying to add data to the data base. 
+
+

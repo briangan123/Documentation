@@ -54,4 +54,9 @@ This week we didnt really add much to the gui of the frontend. We were focusing 
 
 So far We have setup the add button as well as the view all button but are running into the error shown above when trying to add data to the data base. 
 
+#Questions:
+
+1. How are we connecting the .env file to the frontend. More so how is the ".env" file implemeted into the front end so our site is able to connect with the data base.
+2. would the edit.js be similar to remove word.js file except the sql is just different?
+
 

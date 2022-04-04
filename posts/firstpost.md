@@ -11,6 +11,7 @@ layout: layouts/post.njk
 
 ## Links for term-glossary repo: 
 https://github.com/briangan123/term-glossary
+
 https://term-glossary.vercel.app/
 
 ## Link to github documentation repo: 

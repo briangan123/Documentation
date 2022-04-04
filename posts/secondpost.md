@@ -1,5 +1,5 @@
 ---
-title: Check-In 2
+title: Check-in 2
 description: 
 date: 
 tags:

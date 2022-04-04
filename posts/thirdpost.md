@@ -54,6 +54,8 @@ This week we didnt really add much to the gui of the frontend. We were focusing 
 
 So far We have setup the add button as well as the view all button but are running into the error shown above when trying to add data to the data base. 
 
+Just for context, If you ar looking at our Vercel site, We are going to remove the edit line that is there and want to implement it into the view all portion once we get it running. Our idea is to have an edit button or icon next to each definition so they you can search through the list and find what you want to edit.
+
 #Questions:
 
 1. How are we connecting the .env file to the frontend. More so how is the ".env" file implemeted into the front end so our site is able to connect with the data base.

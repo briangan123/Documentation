@@ -61,5 +61,7 @@ Just for context, If you ar looking at our Vercel site, We are going to remove t
 1. How are we connecting the .env file to the frontend. More so how is the ".env" file implemeted into the front end so our site is able to connect with the data base.
 2. would the edit.js be similar to remove word.js file except the sql is just different?
 3. Is there a way to test the backend files without having the front end fully working?
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vkc62wx76tactmqcvcfb.png)
+4. for the image above, this is the code that we have for adding a new word to the dictionary. I am just confused if the error we are getting shown 2 images above is due to this code or if we are missing something that could be causing the error 500 in the console.
 
 

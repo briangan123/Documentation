@@ -1,5 +1,5 @@
 ---
-title: This is for check-in #1
+title: Check-in 1
 description: This is for the first check-in
 date: 
 tags:

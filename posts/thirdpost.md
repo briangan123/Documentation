@@ -60,5 +60,6 @@ Just for context, If you ar looking at our Vercel site, We are going to remove t
 
 1. How are we connecting the .env file to the frontend. More so how is the ".env" file implemeted into the front end so our site is able to connect with the data base.
 2. would the edit.js be similar to remove word.js file except the sql is just different?
+3. Is there a way to test the backend files without having the front end fully working?
 
 

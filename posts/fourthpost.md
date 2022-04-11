@@ -25,3 +25,8 @@ Here is the results for when we click on the view all button. The only issue tha
 3. We need to setup an accent card or something where we will display all defintions with their attributes in the fields
 4. Work on the remove button once we have our data viewed on the page for everyone to see.
 5. Work on adding the edit button to the view all list.
+
+
+## Questions
+1. For listing all items in the data base would you reccomend using an accent card?
+2. 

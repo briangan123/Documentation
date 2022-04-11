@@ -17,7 +17,14 @@ Listed in this image above shows what happends in the console when you input you
 Here is the results for when we click on the view all button. The only issue that we dont quiet understand with this is that when we click on the view all button it will only show blank spaces unless we have inputs in the Text fields.
 
 ## Backend
+This week we were able to connect the front end inputs and save them into the backend. Then we hit the addTerm endpoint and were able to add the data to the planetscale db.
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oi6acesvetiw3ir4diwq.png)
+The above image shows the entries in the planetscale db.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7uapz1unq2mxsm3zmyv3.png)
+ The above image shows the code to capture the inputs and calls the api to input the entries into the db.
+ 
 
 ## What we need to work on this week
 1. Make sure that our data that we are adding into the database from the Site is showing up correctly within the Planetscale CLI.
@@ -29,4 +36,5 @@ Here is the results for when we click on the view all button. The only issue tha
 
 ## Questions
 1. For listing all items in the data base would you reccomend using an accent card?
-2. 
+2. How can teammates test the site locally? When they run "vercel dev" and "vercel pull", it shows them options to set up their own vercel site instead of spinning up the main vercel site. (they are in the correct directory too)
+3. How can we reset the id# when we clear the database? 

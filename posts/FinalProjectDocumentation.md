@@ -13,6 +13,8 @@ https://app.swaggerhub.com/apis/Group-5-IST402/term-glossary-edit/1.0.0
 # Final Project Documentation
 ### OverView
 The term glossary project allows users to add, view, and delete terms from a database. This database is leveraged through Planet Scale, a serveless database platform that is compatible with MySQL. As such, our code enables us to utilize SQL queries to perform specific actions depending on what task needs to be done. These are found in the form of API endpoints, of which the term glossary has four. These are the addTerm, removeTerm, termFinder, and ViewList javascript endpoints. 
+![Overview](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4pz7sm49ektta5sdl1ub.png)
+Here is what our website looks like, If you would like to play around with it, just check out the vercel link at the end of the page!
 
 ### AddTerm End Point
 The goal of the addTerm api endpoint is to add a term, definition, and context to a database, all of which is information entered by the user. The addTerm endpoint imports the PlanetScale Database. It then utilizes a handler passing an http request and response. The http request stores the term, definition, and context that will be added by the user. An array named terms acts to store the three aforementioned variables of the request query. Finally, after establishing a connection to the PlanetScale Database, a SQL query inserts the term, definition, and context into the database, and assigns it a unique autoincremented numerical id so that the database can execute commands on this specific entry.

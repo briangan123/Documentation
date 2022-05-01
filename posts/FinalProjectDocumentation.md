@@ -31,6 +31,15 @@ Function in SRC/term-list.js
 ### TermFinder Endpoint
 The termFinder api endpoint aims to retrieve a specific term and its definition/context based on a user's input. After importing the PlanetScale api endpoint, a handler function passes an http request and response, with the request retrieving the term entered by the user in the web application. After a connection to the database is secured, a SQL query is executed that aims to return any term within the database that matches the one provided by the user. 
 
+![api/termfinder](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kss17a53itdlxk13ez0a.png)
+API that creates term finder to be used in from planet-scale
+
+
+
+![SRC/term-finder](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8nlys4cv5d6pa3ktdr0h.png)
+
+Src/term-finder.js file that shows the logic behind our term-finder button.
+
 ### ViewList End Point
 The viewList api endpoint aims to retrieve all contents currently within the database. After importing the PlanetScale Database, a handler function passes an http request and response,. Once a connection is established with the database, a query is run that selects all the contents in the database, which is returned by the response. 
 

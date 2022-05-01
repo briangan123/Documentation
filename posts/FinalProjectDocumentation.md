@@ -22,6 +22,12 @@ The add-term-form responds to the user clicking the add-term button on the web a
 ### RemoveTerm Endpoint
 The removeTerm api endpoint aims to remove an entry in the database entirely, identifying a specific entry using the unique autoincremented ID each added entry is assigned by the addTerm api endpoint. After importing the PlanetScale Database, a handler function passes an http request and response, with the request retrieving the ID of the term in question. After connecting to the PlanetScale Database, a SQL query is executed that deletes the entry with the same ID as the one returned by the handler. A 200 response is returned if the code is successful. 
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7tf0rcqgn0ce5krqb47p.png)
+API Query
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vb0e09o79ucz44kxffno.png)
+Function in SRC/term-list.js
+
 ### TermFinder Endpoint
 The termFinder api endpoint aims to retrieve a specific term and its definition/context based on a user's input. After importing the PlanetScale api endpoint, a handler function passes an http request and response, with the request retrieving the term entered by the user in the web application. After a connection to the database is secured, a SQL query is executed that aims to return any term within the database that matches the one provided by the user. 
 

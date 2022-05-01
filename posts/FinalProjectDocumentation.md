@@ -17,6 +17,16 @@ The term glossary project allows users to add, view, and delete terms from a dat
 ### AddTerm End Point
 The goal of the addTerm api endpoint is to add a term, definition, and context to a database, all of which is information entered by the user. The addTerm endpoint imports the PlanetScale Database. It then utilizes a handler passing an http request and response. The http request stores the term, definition, and context that will be added by the user. An array named terms acts to store the three aforementioned variables of the request query. Finally, after establishing a connection to the PlanetScale Database, a SQL query inserts the term, definition, and context into the database, and assigns it a unique autoincremented numerical id so that the database can execute commands on this specific entry.
 
+![Add term API](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7e9qhqyq5q5f9xm0rqwk.png)
+
+This allows us to write the logic to call add term (api/addterm.js)
+
+
+
+![Add Term SRC](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1rgqro7wiwskik4bzfgm.png)
+
+This is how we are able to call add term in our index.htm (src/add-term-form.js)
+
 The add-term-form responds to the user clicking the add-term button on the web application. Once a user clicks this button, the values entered into the term, definition, and context text boxes are stored as variables. A fetch command then connects to the addTerm api endpoint and executes the code using the term, definition, and context values acquired. The resulting data is then returned.
 
 ### RemoveTerm Endpoint
@@ -42,6 +52,14 @@ Src/term-finder.js file that shows the logic behind our term-finder button.
 
 ### ViewList End Point
 The viewList api endpoint aims to retrieve all contents currently within the database. After importing the PlanetScale Database, a handler function passes an http request and response,. Once a connection is established with the database, a query is run that selects all the contents in the database, which is returned by the response. 
+
+![View list API](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hwmvid0wx4xoloyvf40n.png)
+This allows us to write the logic to call View List (api/viewList.js)
+
+
+![View List SRC](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gp9u5geuw62jzgibopvn.png)
+
+This is how we are able to call view list (src/term-list.js)
 
 The term-finder is utilized in the retrieval if a specific term specified by the user. Importing LitElement, html, and css creates a base class for our web application (more information on lit can be found in the resources). A constructor is made which passes the variables id (Number), listMap (array), term (String), definition (String), and contrxt (String). Respectively, these variables are set as either null for integers, blank for strings, or an empty array for arrays. The findTerm method utilizes the term input by the user and passes it through the 'api/termFinder'. This data is returned in the form of an array. The render method runs on each update which updates the html of the page to register and returns the results if there are any matches in the database or none at all. 
 

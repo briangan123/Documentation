@@ -1,6 +1,6 @@
 ---
 title: Final Project Documentation
-description: This is for the Final Project
+description: This is for Group B's Final Project
 date: 
 tags:
   - Final Project Documentation post
@@ -54,7 +54,7 @@ API that creates term finder to be used in from planet-scale
 Src/term-finder.js file that shows the logic behind our term-finder button.
 
 ### ViewList End Point
-The viewList api endpoint aims to retrieve all contents currently within the database. After importing the PlanetScale Database, a handler function passes an http request and response,. Once a connection is established with the database, a query is run that selects all the contents in the database, which is returned by the response. 
+The viewList api endpoint aims to retrieve all contents currently within the database. After importing the PlanetScale Database, a handler function passes an http request and response. Once a connection is established with the database, a query is run that selects all the contents in the database, which is returned by the response. 
 
 ![View list API](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hwmvid0wx4xoloyvf40n.png)
 This allows us to write the logic to call View List (api/viewList.js)
@@ -64,7 +64,7 @@ This allows us to write the logic to call View List (api/viewList.js)
 
 This is how we are able to call view list (src/term-list.js)
 
-The term-finder is utilized in the retrieval if a specific term specified by the user. Importing LitElement, html, and css creates a base class for our web application (more information on lit can be found in the resources). A constructor is made which passes the variables id (Number), listMap (array), term (String), definition (String), and contrxt (String). Respectively, these variables are set as either null for integers, blank for strings, or an empty array for arrays. The findTerm method utilizes the term input by the user and passes it through the 'api/termFinder'. This data is returned in the form of an array. The render method runs on each update which updates the html of the page to register and returns the results if there are any matches in the database or none at all. 
+The term-finder is utilized in the retrieval of a specific term specified input by the user. Importing LitElement, html, and css creates a base class for our web application (more information on lit can be found in the resources). A constructor is made which passes the variables id (Number), listMap (array), term (String), definition (String), and contrxt (String). Respectively, these variables are set as either null for integers, blank for strings, or an empty array for arrays. The findTerm method utilizes the term input by the user and passes it through the 'api/termFinder'. This data is returned in the form of an array. The render method runs on each update which updates the html of the page to register and returns the results if there are any matches in the database or none at all. 
 
 The term-list is utilized in the deployment of the deletion of a term, viewing a specific term, as well as the viewing of all terms. Importing LitElement, html, and css creates a base class for our web application (more information on lit can be found in the resources). A constructor is made which passes the variables id (Number), listMap (array), term (String), definition (String), and contrxt (String). Respectively, these variables are set as either null for integers, blank for strings, or an empty array for arrays. The method getList uses a fetch command on 'api/viewList', which retrieves and returns the result of the viewList api endpoint. The method deleteTerm takes an argument 'e', which is the entry that is clicked on. The selected entry's ID is then acquired and returned. The entry's ID is then run through the removeTerm api endpoint within a fetch command, and the modified list is then returned. Regardless of which method is used, the render method runs on each update which updates the html of the page to register and visualize any changes which may have occurred in the database. 
 
@@ -79,6 +79,32 @@ https://term-glossary.vercel.app/
 
 ## Link to github documentation repo: 
 https://github.com/briangan123/Documentation
+
+## Link to Original Issue being solved:
+https://github.com/elmsln/issues/issues/849
+
+## Who Did What
+Brian Trojan:
+Term Finder: Src API
+Contributed to Index.html
+Contributed to view all
+Contributed to Front End: turning api data into variables
+
+Brian Gan:
+
+Hayden Angello:
+
+Matthew Wigoff:
+
+
+Ryan Armani:
+API Research
+User Work Flows
+OpenAPI Documentation
+11ty Final Submission
+
+
+
 
 ## Background resources
 Vercel: https://vercel.com/docs

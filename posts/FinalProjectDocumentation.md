@@ -99,6 +99,9 @@ Contributed to Front End: turning api data into variables
 Brian Gan:
 
 Hayden Angello:
+Contributed to back end functions
+Documentation for each function (see third post)
+Contributed to debugging final project (double clicks, delete, clearing tables)
 
 Matthew Wigoff:
 

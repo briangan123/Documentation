@@ -68,6 +68,12 @@ The term-finder is utilized in the retrieval of a specific term specified input 
 
 The term-list is utilized in the deployment of the deletion of a term, viewing a specific term, as well as the viewing of all terms. Importing LitElement, html, and css creates a base class for our web application (more information on lit can be found in the resources). A constructor is made which passes the variables id (Number), listMap (array), term (String), definition (String), and contrxt (String). Respectively, these variables are set as either null for integers, blank for strings, or an empty array for arrays. The method getList uses a fetch command on 'api/viewList', which retrieves and returns the result of the viewList api endpoint. The method deleteTerm takes an argument 'e', which is the entry that is clicked on. The selected entry's ID is then acquired and returned. The entry's ID is then run through the removeTerm api endpoint within a fetch command, and the modified list is then returned. Regardless of which method is used, the render method runs on each update which updates the html of the page to register and visualize any changes which may have occurred in the database. 
 
+## DataBase Schema
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ehc4akocezpqov60jnne.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tp5bd9axc35bgy1bhu1a.png)
+
 ## Simplified Workflows of api endpoints
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oadydewm00pkcuvkzcav.jpg)
 

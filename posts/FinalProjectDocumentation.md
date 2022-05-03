@@ -106,10 +106,11 @@ Documentation for each function (see third post)
 Contributed to debugging final project (double clicks, delete, clearing tables)
 
 Matthew Wigoff:
-
+Full Stack Research
 
 Ryan Armani:
-API Research
+API endpoint/Middleware Research
+Debugged Term Finder API
 User Work Flows
 OpenAPI Documentation
 11ty Final Submission

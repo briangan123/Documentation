@@ -75,8 +75,7 @@ The term-list is utilized in the deployment of the deletion of a term, viewing a
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tp5bd9axc35bgy1bhu1a.png)
 
 ## Simplified Workflows of api endpoints
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oadydewm00pkcuvkzcav.jpg)
-
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2x19dklkenemlmh0ekld.png)
 
 ## Links for term-glossary repo: 
 https://github.com/briangan123/term-glossary

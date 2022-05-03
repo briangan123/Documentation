@@ -96,7 +96,7 @@ Contributed to Index.html
 Contributed to view all
 Contributed to Front End: turning api data into variables
 
-Brian Gan:
+Brian Gan: Contributed to coding all aspects like a full-stack dev developer (front end, back end, & API)
 
 Hayden Angello:
 Contributed to back end functions

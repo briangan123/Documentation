@@ -97,6 +97,8 @@ Contributed to view all
 Contributed to Front End: turning api data into variables
 
 Brian Gan: Contributed to coding all aspects like a full-stack dev developer (front end, back end, & API)
+Created and connected planetscale database to Github project
+Deployed the documentation and term-glossary repos with their respective 11ty sites.
 
 Hayden Angello:
 Contributed to back end functions
